@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "https://whale-app-qyuui.ondigitalocean.app",
+        target: "https://whale-app-qyuui.ondigitalocean.app:5000",
       },
     },
   },
